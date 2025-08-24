@@ -2,19 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <title>Vijayalaxmi Kotagi | Portfolio</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar-brand">My Website</div>
-        <div class="navbar-toggle" id="navbar-toggle">
+        <div class="navbar-toggle" id="navbar-toggle" aria-label="Toggle menu">
           <i class="bi bi-list"></i>
         </div>
         <ul class="navbar-menu" id="navbar-menu">
@@ -26,101 +24,80 @@
         </ul>
       </nav>
     </header>
-    <section class="hero" id="hero"> 
+
+    <section class="hero" id="hero">
       <div class="hero_container">
         <div class="hero_container_left">
           <p class="hero_text">WELCOME TO MY WEBSITE</p>
 
           <div class="hero_title">
-            <p>Hi, I,m <span class="hero_name">Vijayalaxmi Kotagi</span></p>
+            <p>Hi, I'm <span class="hero_name">Vijayalaxmi Kotagi</span></p>
             <p>CSE'2025 | Python Developer | Web Developer</p>
           </div>
-          <!-- <h2 style="color: #00bcd4;">CSE'2025 | Python Developer | Web Developer</h2> -->
 
           <p class="hero__description">
-            Computer Science graduate with a focus on results, offering practical experience in software development and data analytics. Expertise in Python, SQL, Flask, and web technologies, underpinned by a solid understanding of data visualization, machine learning, and backend API integration. Capable of resolving real-world issues through data-driven insights and teamwork-driven development.</p>
+            Computer Science graduate with a focus on results, offering practical experience in software development and data analytics. Expertise in Python, SQL, Flask, and web technologies, underpinned by a solid understanding of data visualization, machine learning, and backend API integration. Capable of resolving real-world issues through data-driven insights and teamwork-driven development.
+          </p>
+
           <div class="social_Media_div">
             <div class="social_Media_left">
-              <div class="title"><h3>Connect With Me</h3></div>
-
+              <div class="title"><h3>Connect With Me</h3></div><br><br>
               <div class="social_icons">
-                <a href="tel:+917795186530">
+                <a href="tel:+917795186530" aria-label="Call">
                   <i class="bi bi-telephone-fill"></i>
                 </a>
-                <a href="mailto:vijayalaxmikotagi1969@gmail.com">
+                <a href="mailto:vijayalaxmikotagi1969@gmail.com" aria-label="Email">
                   <i class="bi bi-envelope-fill"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vijayalaxmi-kotagi" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/vijayalaxmi-kotagi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <i class="bi bi-linkedin"></i>
                 </a>
-                <a href="https://github.com/vijayalaxmi-kotagi" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/vijayalaxmi-kotagi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <i class="bi bi-github"></i>
                 </a>
               </div>
             </div>
-
-            <!-- <div class="social_Media_right">
-              <div class="title"><h3>Connect With Me</h3></div>
-
-              <div class="social_icons">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-linkedin"></i>
-              </div>
-            </div> -->
           </div>
         </div>
+
         <div class="hero_container_right">
           <div class="hero_image">
-            <img src="assets/vijayalaxmi.png" />
+            <img src="assets/vijayalaxmi.png" alt="Portrait of Vijayalaxmi" />
           </div>
-          <!-- <img src="https://dummyimage.com/520x500" /> -->
         </div>
       </div>
     </section>
 
-    <section class="services"  id="services">
+    <section class="services" id="services">
       <div>
         <div class="common-title">
           <h2>Experience</h2>
           <h1>What I Own</h1>
         </div>
-        <div class="services-grid">
-          <div class="grid-container">
-            <div class="grid-item">
-              <i class="bi bi-pencil-square"></i>
-              <h3>Full Stack Development | Intern</h3>
-              <p>
-                •	Developed and deployed 5+ full-stack web applications, reducing backend latency by 30% and improving user load handling by 25%.
-              </p>
-              <br>
-              <p>
-                •	Executed MySQL databases and RESTful APIs to support real-time data flow and enhance system scalability.
-              </p>
-            </div>
-            <div class="grid-item">
-              <i class="bi bi-pencil-square"></i>
-              <h3>Web Development and Design | 
-                Intern</h3>
-              <p>
-                •	Enhanced UI consistency by 40%, reducing page load errors and improving engagement by 20%.
-              </p>
-              <br>
-              <p>
-                •	Completed 5+ web projects including form validation and portfolio creation, reducing validation errors by 20%.
-              </p>
-            </div>
-            <div class="grid-item">
-              <i class="bi bi-pencil-square"></i>
-              <h3>Machine Learning | Intern</h3>
-              <p>
-                •	Designed and optimized 10+ user-friendly web pages with cross-browser compatibility using HTML5, CSS3, and JavaScript.
-              </p>
-              <br>
-              <p>
-                •	Applied responsive design principles to improve mobile usability by 40%.
-              </p>
-            </div> 
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <i class="bi bi-pencil-square"></i>
+            <h3>Full Stack Development | Intern</h3>
+            <p>• Developed and deployed 5+ full-stack web applications, reducing backend latency by 30% and improving user load handling by 25%.</p>
+            <br />
+            <p>• Executed MySQL databases and RESTful APIs to support real-time data flow and enhance system scalability.</p>
+          </div>
+
+          <div class="grid-item">
+            <i class="bi bi-pencil-square"></i>
+            <h3>Web Development and Design | Intern</h3>
+            <p>• Enhanced UI consistency by 40%, reducing page load errors and improving engagement by 20%.</p>
+            <br />
+            <p>• Completed 5+ web projects including form validation and portfolio creation, reducing validation errors by 20%.</p>
+          </div>
+
+          <div class="grid-item">
+            <i class="bi bi-pencil-square"></i>
+            <h3>Machine Learning | Intern</h3>
+            <p>• Designed and optimized 10+ user-friendly web pages with cross-browser compatibility using HTML5, CSS3, and JavaScript.</p>
+            <br />
+            <p>• Applied responsive design principles to improve mobile usability by 40%.</p>
           </div>
         </div>
       </div>
@@ -131,84 +108,78 @@
         <div class="common-title">
           <h2>Projects</h2>
           <h1>I have made</h1>
-          <div class="grid-container">
-            <div class="grid-item projects_item">
-              <img src="./assets/sign.webp" />
-              <div class="project_title">
-              <h3>Sign Language Conversion</h3>
-              <a href="https://github.com/vijayalaxmi-kotagi/sign-language-conversion"><i class="bi bi-link"></i></a>
-            </div>
-              <div>
-                </div>
-              </div>
+        </div>
+
+        <div class="grid-container">
           <div class="grid-item projects_item">
-            <img src="./assets/college.jpg" />
+            <img src="./assets/sign.webp" alt="Sign Language Conversion" loading="lazy" />
             <div class="project_title">
-
-            <h3>College Event Management System</h3>
-            <a href="https://github.com/vijayalaxmi-kotagi/College-Event-Management-System-master"><i class="bi bi-link"></i></a>
-
+              <h3>Sign Language Conversion</h3>
+              <a href="https://github.com/vijayalaxmi-kotagi/sign-language-conversion" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i></a>
             </div>
-            </div>
-          <div class="grid-item projects_item">
-          <img src="./assets/titanic.jpg" />
-          <div class="project_title">
-          
-          <h3>Titanic Survival Prediction</h3>
-          <a href="https://github.com/vijayalaxmi-kotagi/DecisionTreeOnTitanic-main"><i class="bi bi-link"></i></a>
           </div>
 
+          <div class="grid-item projects_item">
+            <img src="./assets/college.jpg" alt="College Event Management System" loading="lazy" />
+            <div class="project_title">
+              <h3>College Event Management System</h3>
+              <a href="https://github.com/vijayalaxmi-kotagi/College-Event-Management-System-master" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i></a>
+            </div>
           </div>
-          <div class="grid-item projects_item">
-          <img src="./assets/tribute.jpeg" />
-          <div class="project_title">
-          
-          <h3>Tribute Page</h3>
-          <a href="https://github.com/vijayalaxmi-kotagi/Tribute_page"><i class="bi bi-link"></i></a>
-          </div>    </div>
-          <div class="grid-item projects_item">
-          <img src="./assets/todo.jpeg" />
-          <div class="project_title">
-          
-          <h3>Todo webapp</h3>
-          <a href="https://github.com/vijayalaxmi-kotagi/To_Do_App"><i class="bi bi-link"></i></a>
-          </div>      </div>
 
-      <!-- <div class="grid-item projects_item">
-        <img src="https://dummyimage.com/250x250" />
-        <div class="project_title">
-          
-          <h3>Wallpaper App</h3>
-          <a href=""><i class="bi bi-link"></i></a>
-          </div>        </div> -->
-      </div>
+          <div class="grid-item projects_item">
+            <img src="./assets/titanic.jpg" alt="Titanic Survival Prediction" loading="lazy" />
+            <div class="project_title">
+              <h3>Titanic Survival Prediction</h3>
+              <a href="https://github.com/vijayalaxmi-kotagi/DecisionTreeOnTitanic-main" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="grid-item projects_item">
+            <img src="./assets/tribute.jpeg" alt="Tribute Page" loading="lazy" />
+            <div class="project_title">
+              <h3>Tribute Page</h3>
+              <a href="https://github.com/vijayalaxmi-kotagi/Tribute_page" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="grid-item projects_item">
+            <img src="./assets/todo.jpeg" alt="Todo webapp" loading="lazy" />
+            <div class="project_title">
+              <h3>Todo webapp</h3>
+              <a href="https://github.com/vijayalaxmi-kotagi/To_Do_App" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <!-- Skills Section -->
     <section id="skills">
       <h3 class="section__subtitle">Skills</h3>
       <h2 class="section__title">What I Have</h2>
+
       <div class="skills-container">
         <div class="skill-card">
-        <i class="fas fa-code"></i>
-        <h3>Programming Languages</h3>
-        <p>Python, Java, C</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-laptop-code"></i>
-        <h3>Web Development</h3>
-        <p>HTML, CSS, JavaScript, Flask, React</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-database"></i>
-        <h3>Databases</h3>
-        <p>MySQL, SQLite</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-tools"></i>
-        <h3>Tools & Platforms</h3>
-        <p>Git, GitHub, VS Code, Linux</p>
-      </div>
+          <i class="bi bi-braces"></i>
+          <h3>Programming Languages</h3>
+          <p>Python, Java, C</p>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-laptop"></i>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, Flask, React</p>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-database"></i>
+          <h3>Databases</h3>
+          <p>MySQL, SQLite</p>
+        </div>
+        <div class="skill-card">
+          <i class="bi bi-tools"></i>
+          <h3>Tools & Platforms</h3>
+          <p>Git, GitHub, VS Code, Linux</p>
+        </div>
       </div>
     </section>
 
@@ -241,10 +212,12 @@
       </div>
     </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-
+    <!-- Your JS -->
     <script src="index.js"></script>
   </body>
 </html>
+
